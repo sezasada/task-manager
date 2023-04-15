@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import { Stack } from "@mui/system";
 import { Typography, Box } from "@mui/material";
-import TasksAwaitingApproval from "./AdminDashboard/TasksAwaitingApproval";
 import TasksAssignedToYou from "./AdminDashboard/TasksAssignedToYou";
 
 export default function AdminDashboard() {
@@ -12,10 +11,6 @@ export default function AdminDashboard() {
       spacing={3}
       sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
     >
-      <Box>
-
-        <TasksAwaitingApproval />
-      </Box>
       <Box>
         <TasksAssignedToYou />
       </Box>
