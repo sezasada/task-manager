@@ -1,0 +1,38 @@
+/* .nav {
+   flex box layout 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 30px;
+  overflow: hidden;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-left: 10px;
+  margin: 0;
+} */
+
+.logo-img {
+	filter: brightness(70%) hue-rotate(-10deg) saturate(150%);
+}
+/* .grid-icon {
+  color: rgba(187, 41, 46, 1)!important;
+} */
+
+.MuiTabs-flexContainer {
+	min-width: 200px !important;
+	max-width: 1500px !important;
+	justify-content: center !important;
+	margin: 0 !important;
+}
+
+.css-o1liia {
+	max-width: 1500px !important;
+}
