@@ -251,7 +251,7 @@ export default function TasksAssignedToYou() {
 								flexDirection: "column",
 								width: "90%",
 								padding: "40px",
-								backgroundColor: "rgb(241, 241, 241)",
+								backgroundColor: "#F3ECE7",
 							}}
 							elevation={3}
 						>
@@ -263,7 +263,6 @@ export default function TasksAssignedToYou() {
 									display: "flex",
 									justifyContent: "center",
 									alignItems: "center",
-									color: "rgb(187, 41, 46)",
 									borderBottom: "1px solid grey",
 								}}
 							>
@@ -374,10 +373,11 @@ export default function TasksAssignedToYou() {
 											color: "white",
 											maxWidth: "220px",
 											marginTop: "5px",
-											backgroundColor: "rgb(187, 41, 46)",
+											color: "#F3ECE7",
+											backgroundColor: "#B5B292",
 											"&:hover": {
-												backgroundColor: "rgb(187, 41, 46)",
-												transform: "scale(1.03)",
+											  backgroundColor: "#B5B292",
+											  transform: "scale(1.03)",
 											},
 										}}
 										onClick={() => {
@@ -398,10 +398,11 @@ export default function TasksAssignedToYou() {
 											marginRight: "3px",
 											maxWidth: "220px",
 											marginTop: "5px",
-											backgroundColor: "rgb(187, 41, 46)",
+											color: "#F3ECE7",
+											backgroundColor: "#B5B292",
 											"&:hover": {
-												backgroundColor: "rgb(187, 41, 46)",
-												transform: "scale(1.03)",
+											  backgroundColor: "#B5B292",
+											  transform: "scale(1.03)",
 											},
 										}}
 									>
@@ -417,10 +418,11 @@ export default function TasksAssignedToYou() {
 											maxWidth: "220px",
 											marginTop: "5px",
 											marginLeft: "3px",
-											backgroundColor: "rgb(187, 41, 46)",
+											color: "#F3ECE7",
+											backgroundColor: "#B5B292",
 											"&:hover": {
-												backgroundColor: "rgb(187, 41, 46)",
-												transform: "scale(1.03)",
+											  backgroundColor: "#B5B292",
+											  transform: "scale(1.03)",
 											},
 										}}
 									>
@@ -471,6 +473,17 @@ export default function TasksAssignedToYou() {
 											"margin-right": "2px",
 											"padding-left": "2px",
 											"padding-right": "2px",
+											"& .MuiOutlinedInput-root": {
+												"& fieldset": {
+												  borderColor: "#B5B292",
+												},
+												"&.Mui-focused fieldset": {
+												  borderColor: "#B5B292",
+												},
+											  },
+											  "& .MuiFormLabel-root.Mui-focused": {
+												color: "black",
+											  },
 										}}
 										onChange={(event) => setComment(event.target.value)}
 										variant="outlined"
@@ -481,12 +494,14 @@ export default function TasksAssignedToYou() {
 														variant="contained"
 														onClick={handleSubmitComment}
 														sx={{
-															backgroundColor: "rgb(187, 41, 46)",
+															color: "#F3ECE7",
+															backgroundColor: "#B5B292",
 															"&:hover": {
-																backgroundColor: "rgb(187, 41, 46)",
-																transform: "scale(1.03)",
+															  backgroundColor: "#B5B292",
+															  transform: "scale(1.03)",
 															},
-														}}
+															width: 300,
+														  }}
 													>
 														<AddIcon />
 													</Button>
