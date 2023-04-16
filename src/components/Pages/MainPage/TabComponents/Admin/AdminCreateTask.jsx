@@ -460,10 +460,12 @@ export default function AdminCreateTask() {
                 variant="contained"
                 type="submit"
                 sx={{
-                  backgroundColor: "rgb(187, 41, 46)",
-                  "&:hover": {
-                    backgroundColor: "rgb(187, 41, 46)",
-                  },
+					color: "#F3ECE7",
+					backgroundColor: "#B5B292",
+					"&:hover": {
+					  backgroundColor: "#B5B292",
+					  transform: "scale(1.03)",
+					},
                   width: 300,
                 }}
               >
