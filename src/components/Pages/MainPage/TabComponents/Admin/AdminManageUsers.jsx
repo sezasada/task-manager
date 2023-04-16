@@ -131,7 +131,7 @@ export default function AdminManageUsers() {
           p: 3,
           maxWidth: "750px",
           width: "90%",
-          backgroundColor: "rgb(241, 241, 241)",
+          backgroundColor: "#F3ECE7",
         }}
         elevation={3}
       >
@@ -141,11 +141,11 @@ export default function AdminManageUsers() {
             justifyContent: "center",
             alignItems: "center",
             fontSize: "3vh",
-            color: "rgb(187, 41, 46)",
           }}
         >
           All Users
         </Typography>
+        <hr />
         <TableContainer sx={{ height: "325px", overflow: "scroll" }}>
           <Table
             stickyHeader
@@ -163,7 +163,7 @@ export default function AdminManageUsers() {
                     wordWrap: "break-word",
                     whiteSpace: "normal",
                     fontWeight: "bold",
-                    backgroundColor: "rgb(241, 241, 241)",
+                    backgroundColor: "#F3ECE7",
                   }}
                 >
                   Name
@@ -175,8 +175,9 @@ export default function AdminManageUsers() {
                     wordWrap: "break-word",
                     whiteSpace: "normal",
                     fontWeight: "bold",
-                    backgroundColor: "rgb(241, 241, 241)",
+                    backgroundColor: "#F3ECE7",
                   }}
+
                 >
                   Email
                 </TableCell>
@@ -187,7 +188,7 @@ export default function AdminManageUsers() {
                     wordWrap: "break-word",
                     whiteSpace: "normal",
                     fontWeight: "bold",
-                    backgroundColor: "rgb(241, 241, 241)",
+                    backgroundColor: "#F3ECE7",
                   }}
                 >
                   Admin Status
@@ -273,7 +274,7 @@ export default function AdminManageUsers() {
                 flexDirection: "column",
                 width: "90%",
                 padding: "40px",
-                backgroundColor: "rgb(241, 241, 241)",
+                backgroundColor: "#F3ECE7",
               }}
               elevation={3}
             >
@@ -285,7 +286,6 @@ export default function AdminManageUsers() {
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  color: "rgb(187, 41, 46)",
                   borderBottom: "1px solid grey",
                 }}
               >
@@ -340,9 +340,10 @@ export default function AdminManageUsers() {
                         width: "200px",
                         maxWidth: "220px",
                         marginTop: "10px",
-                        backgroundColor: "rgb(187, 41, 46)",
+                        color: "#F3ECE7",
+                        backgroundColor: "#B5B292",
                         "&:hover": {
-                          backgroundColor: "rgb(187, 41, 46)",
+                          backgroundColor: "#B5B292",
                           transform: "scale(1.03)",
                         },
                       }}
@@ -358,9 +359,10 @@ export default function AdminManageUsers() {
                         maxWidth: "220px",
                         marginTop: "10px",
                         marginLeft: "3px",
-                        backgroundColor: "rgb(187, 41, 46)",
+                        color: "#F3ECE7",
+                        backgroundColor: "#B5B292",
                         "&:hover": {
-                          backgroundColor: "rgb(187, 41, 46)",
+                          backgroundColor: "#B5B292",
                           transform: "scale(1.03)",
                         },
                       }}

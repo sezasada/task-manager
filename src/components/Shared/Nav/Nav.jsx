@@ -49,7 +49,7 @@ function Nav() {
 			position="sticky"
 			sx={{
 				width: "100vw",
-				backgroundColor: "rgb(241, 241, 241)",
+				backgroundColor: "#B5B292",
 				alignItems: "center",
 			}}
 		>
@@ -71,19 +71,7 @@ function Nav() {
 							onClick={() => dispatch({ type: "UNSET_TAB_INDEX" })}
 						>
 							<Box>
-								<img
-									src="https://static.wixstatic.com/media/bf2bff_05ec89b84f6f40998006c9d59f212956~mv2.png/v1/fill/w_232,h_180,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20red.png"
-									alt="logo red.png"
-									className="logo-img"
-									style={{
-										marginLeft: "5px",
-										minWidth: "50px",
-										objectFit: "cover",
-										minHeight: "50px",
-										maxWidth: "50px",
-										maxHeight: "50px",
-									}}
-								/>
+					
 							</Box>
 						</Link>
 					</Link>
@@ -92,7 +80,7 @@ function Nav() {
 					{user.is_admin && user.is_verified ? (
 						<Tabs
 							position="absolute"
-							TabIndicatorProps={{ style: { background: "rgb(187, 41, 46)" } }}
+							TabIndicatorProps={{ style: { background: "#F3ECE7" } }}
 							value={tabIndex}
 							sx={{
 								"& .MuiTab-root": {
@@ -104,7 +92,7 @@ function Nav() {
 						>
 							<Tab
 								icon={
-									<GridViewSharpIcon style={{ color: "rgb(187, 41, 46)" }} />
+									<GridViewSharpIcon style={{ color: "#F3ECE7" }} />
 								}
 								// label={<span style={{ color: "black" }}>Dashboard</span>}
 								onClick={() => {
@@ -114,7 +102,7 @@ function Nav() {
 							/>
 
 							<Tab
-								icon={<PersonSharpIcon style={{ color: "rgb(187, 41, 46)" }} />}
+								icon={<PersonSharpIcon style={{ color: "#F3ECE7" }} />}
 								// label={<span style={{ color: "black" }}>Manage Users</span>}
 								onClick={() => {
 									dispatch({ type: "SET_TAB_INDEX", payload: 1 });
@@ -124,7 +112,7 @@ function Nav() {
 
 							<Tab
 								icon={
-									<TextSnippetSharpIcon style={{ color: "rgb(187, 41, 46)" }} />
+									<TextSnippetSharpIcon style={{ color: "#F3ECE7" }} />
 								}
 								// label={<span style={{ color: "black" }}>Manage Tasks</span>}
 								onClick={() => {
@@ -134,7 +122,7 @@ function Nav() {
 							/>
 							<Tab
 								icon={
-									<BorderColorSharpIcon style={{ color: "rgb(187, 41, 46)" }} />
+									<BorderColorSharpIcon style={{ color: "#F3ECE7" }} />
 								}
 								// label={<span style={{ color: "black" }}>Dashboard</span>}
 								onClick={() => {
@@ -146,7 +134,7 @@ function Nav() {
 					) : user.is_verified ? (
 						<Tabs
 							position="absolute"
-							TabIndicatorProps={{ style: { background: "rgb(187, 41, 46)" } }}
+							TabIndicatorProps={{ style: { background: "#DBD7CC" } }}
 							value={tabIndex}
 							sx={{
 								"& .MuiTab-root": {
@@ -158,7 +146,7 @@ function Nav() {
 						>
 							<Tab
 								icon={
-									<GridViewSharpIcon style={{ color: "rgb(187, 41, 46)" }} />
+									<GridViewSharpIcon style={{ color: "#DBD7CC" }} />
 								}
 								// label={<span style={{ color: "black" }}>Dashboard</span>}
 								onClick={() => {
@@ -178,7 +166,7 @@ function Nav() {
 							/>
 							<Tab
 								icon={
-									<TextSnippetSharpIcon style={{ color: "rgb(187, 41, 46)" }} />
+									<TextSnippetSharpIcon style={{ color: "#DBD7CC" }} />
 								}
 								// label={<span style={{ color: "black" }}>Task List</span>}
 								onClick={() => {
@@ -244,7 +232,7 @@ function Nav() {
 						}}
 					>
 						<IconButton size="large" onClick={handleOpenNavMenu}>
-							<AccountCircleIcon style={{ color: "rgb(187, 41, 46)" }} />
+							<AccountCircleIcon style={{ color: "#F3ECE7" }} />
 						</IconButton>
 					</Box>
 				</Box>

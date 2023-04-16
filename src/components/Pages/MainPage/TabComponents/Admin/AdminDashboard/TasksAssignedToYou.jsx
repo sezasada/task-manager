@@ -125,7 +125,7 @@ export default function TasksAssignedToYou() {
 				sx={{
 					p: 3,
 					maxWidth: "750px",
-					backgroundColor: "rgb(241, 241, 241)",
+					backgroundColor: "#F3ECE7",
 				}}
 				elevation={3}
 			>
@@ -136,7 +136,6 @@ export default function TasksAssignedToYou() {
 						justifyContent: "center",
 						alignItems: "center",
 						fontSize: "3vh",
-						color: "rgb(187, 41, 46)",
 					}}
 				>
 					Your Tasks
