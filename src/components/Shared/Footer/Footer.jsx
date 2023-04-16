@@ -10,7 +10,7 @@ import "./Footer.css";
 function Footer() {
 	return (
 		<footer>
-			<Typography>&copy; Sebastien and Abi Foundadion</Typography>
+			<Typography>&copy; Sebastien and Abi Foundation</Typography>
 		</footer>
 	);
 }
