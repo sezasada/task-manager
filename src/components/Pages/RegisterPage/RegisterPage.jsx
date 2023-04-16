@@ -26,7 +26,7 @@ function RegisterPage() {
           p: 3,
           maxWidth: "35vh",
           width: "90%",
-          backgroundColor: "rgb(241, 241, 241)",
+					backgroundColor: "#F3ECE7",
         }}
         elevation={3}
       >

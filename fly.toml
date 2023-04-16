@@ -1,12 +1,13 @@
-# fly.toml file generated for farmworks on 2023-04-06T13:22:19-05:00
+# fly.toml file generated for taskmanagmentapplication on 2023-04-16T14:08:27-05:00
 
-app = "farmworks"
+app = "taskmanagmentapplication"
 kill_signal = "SIGINT"
 kill_timeout = 5
+primary_region = "bos"
 processes = []
 
 [env]
-   PORT = "8080"
+ PORT = "8080"
 
 [experimental]
   auto_rollback = true
